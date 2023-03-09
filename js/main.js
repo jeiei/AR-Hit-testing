@@ -123,7 +123,7 @@ function onSelect() {
             }
 
         } );
-        let s = 0.005
+        let s = 0.0005
         object.scale.set(s,s,s)
         object.position.setFromMatrixPosition(pointer.matrix)
         object.quaternion.setFromRotationMatrix(pointer.matrix)
